@@ -21,10 +21,16 @@ Videos are muted, loop inline only when visible, stop when the tab is hidden, an
 
 ## Legal and store metadata
 
-The privacy policy describes local saves, Apple/Game Center, RevenueCat purchases, Google AdMob/UMP, GitHub hosting and email support. Website terms preserve Apple's Standard EULA for the app licence. Keep these pages aligned with SDK configuration as the app changes. The site advertises development status; it does not claim an App Store release or offer an unavailable download.
+The privacy policy describes local saves, Apple/Game Center, RevenueCat purchases, Google AdMob/UMP, GitHub hosting and email support. Website terms preserve Apple's Standard EULA for the app licence. Keep these pages aligned with SDK configuration as the app changes. The site links to the released iPhone app. Gameplay clips retain their original development-footage labels.
 
 The game source remains in a separate private repository. Website deployment does not submit or publish the iPhone app.
 
 ## Rights
 
 Copyright © 2026 Tomás Ruiz López. All rights reserved. This public repository is not an open-source licence for the game, artwork, recordings or website. Third-party names belong to their respective owners.
+
+## Languages
+
+English pages remain at the original URLs. German pages are under `/de/`, including `/de/support/`, `/de/privacy/` and `/de/terms/`. Each page links to its equivalent in the other language and declares `lang`, canonical and `hreflang` metadata. Keep both versions aligned when changing legal or support copy. Shared animation controls use the document language; no language preference is stored or forced.
+
+Deploy by committing the reviewed static files and pushing `main` to `origin`; GitHub Pages serves the repository root. Verify the Pages deployment and the public German URLs after the push.

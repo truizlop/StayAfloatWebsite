@@ -15,3 +15,9 @@ Inspected first/last sampled frames of all three final clips: stable framing, no
 wordmark.png, ship.png and icon.png are optimized copies of the game’s production wordmark, ship-and-duck Icon Composer layer and light app icon. Only resolution/compression changed. favicon.svg is a small site-specific ship motif. No new AI imagery was generated for this website.
 
 Gameplay source revision: 210e1cf, with website legal-link configuration changes that do not modify rendering or simulation. Raw captures are retained privately; only the selected clips and posters are published here.
+
+## German release, 24 October 2026
+
+`gameplay-de.jpg` is a resized JPEG of `Artifacts/AppStoreScreenshots/de-DE/source/pipes.png` from the Stay Afloat release workspace. It is an authentic iPhone Simulator screenshot from the German app walkthrough, including its real voyage time, buoyancy, room addresses and current seasonal character decoration. Only resolution and compression changed; no text, actors, water, scores or results were added. It replaces the main development clip on the German landing page.
+
+The three feature clips and their posters are shared between languages: inspected frames contain room addresses, icons and artwork, with no English UI text requiring translation. The brand wordmark remains Stay Afloat.
